@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Escondendo a barra de rolagem */
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+ }
+
+ img {
+    width: 100vw;
+    border-radius: 3px;
+ }
+
+ a {
+    display: block;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bolder;
+    border-radius: 3px;
+ }
+ a:hover {
+    background-color: rgba(232, 247, 205, 0.764);
+    color: rgba(0, 0, 0, 0.77);
+    box-shadow: 2px 2px 4px rgba(85, 107, 47, 0.718);
+    transition: .3s;
+    transform: translate(0px, -2px);    
+    transition: transform 0.3s;           
+ }
